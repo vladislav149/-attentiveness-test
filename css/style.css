@@ -1,0 +1,77 @@
+.svg {
+  /* width: 1000px;
+  height: 1000px; */
+  border: 1px solid black;
+  fill: white;
+  /* fill: transparent; */
+}
+.content {
+  width: 1534px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.blue {
+  fill: #58b2c2;
+}
+
+.red {
+  fill: #a24c74;
+}
+
+.grey {
+  fill: #948f8d;
+}
+
+.weak-blue {
+  fill: #c5d5db;
+}
+
+.img-bg {
+  position: absolute;
+  background-image: url('../o.jpg');
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 445px;
+  z-index: -1;
+  left: 335px;
+  top: 220px;
+  scale: 2;
+}
+
+.svg-elem {
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.svg-elem:hover {
+  fill: green;
+}
+
+.svg-elem:hover + .svg-text {
+  fill: white;
+  stroke: white;
+}
+
+.test,
+.t {
+  stroke: red;
+}
+
+.svg-text {
+  font-size: 52px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  stroke-width: 2;
+  fill: black;
+  transition: fill 0.3s, stroke 0.3s;
+  user-select: none;
+  pointer-events: none;
+}
+
+.red + .svg-text {
+  fill: white;
+  stroke: white;
+}
