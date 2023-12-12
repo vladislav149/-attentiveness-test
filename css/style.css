@@ -6,7 +6,7 @@
   /* fill: transparent; */
 }
 .content {
-  width: 1534px;
+  width: 1475px;
 }
 
 .wrapper {
@@ -29,7 +29,38 @@
   fill: #c5d5db;
 }
 
-.img-bg {
+.wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.wrapper__text {
+  max-width: 400px;
+}
+
+.result {
+  font-size: 30px;
+  height: fit-content;
+  width: fit-content;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.bg-result {
+  color: white;
+  background-color: blue;
+}
+
+.instruction {
+  margin: 30px 0 16px;
+  font-size: 24px;
+}
+
+.instruction__list {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+/* .img-bg {
   position: absolute;
   background-image: url('../o.jpg');
   background-repeat: no-repeat;
@@ -39,7 +70,7 @@
   left: 335px;
   top: 220px;
   scale: 2;
-}
+} */
 
 .svg-elem {
   cursor: pointer;
