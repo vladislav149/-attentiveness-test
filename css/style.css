@@ -1,12 +1,15 @@
 .svg {
-  /* width: 1000px;
-  height: 1000px; */
   border: 1px solid black;
   fill: white;
+  max-height: 100vh;
   /* fill: transparent; */
 }
+
 .content {
-  width: 1475px;
+  padding: 0 10px;
+  /* width: 1475px; */
+  max-width: 1200px;
+  width: 100%;
 }
 
 .wrapper {
@@ -31,6 +34,7 @@
 
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
