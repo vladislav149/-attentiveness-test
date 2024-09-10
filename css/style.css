@@ -2,12 +2,10 @@
   border: 1px solid black;
   fill: white;
   max-height: 100vh;
-  /* fill: transparent; */
 }
 
 .content {
   padding: 0 10px;
-  /* width: 1475px; */
   max-width: 1200px;
   width: 100%;
 }
@@ -34,8 +32,8 @@
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .wrapper__text {
@@ -43,9 +41,9 @@
 }
 
 .result {
-  font-size: 30px;
-  height: fit-content;
   width: fit-content;
+  height: fit-content;
+  font-size: 30px;
   transition: color 0.3s, background-color 0.3s;
 }
 
@@ -63,18 +61,6 @@
   margin-bottom: 30px;
   font-size: 22px;
 }
-
-/* .img-bg {
-  position: absolute;
-  background-image: url('../o.jpg');
-  background-repeat: no-repeat;
-  width: 800px;
-  height: 445px;
-  z-index: -1;
-  left: 335px;
-  top: 220px;
-  scale: 2;
-} */
 
 .svg-elem {
   cursor: pointer;
